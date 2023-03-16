@@ -1,0 +1,19 @@
+$detalhes: #27272A;
+$fundo_img: #DADADA54;
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 4.5rem;
+    background: $detalhes;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        background-color: $fundo_img;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+    }
+}

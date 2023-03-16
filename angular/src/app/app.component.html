@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+
+<main>
+
+    <h1>{{titulos[i]}}</h1>
+    <section>
+        <ul>
+            <li *ngFor="let item of items">
+                {{item}}
+            </li>
+        </ul>
+    </section>
+
+    <nav>
+        <button (click)="setI(0)">
+            <img src="../../../assets/icons/brasil.svg" alt="">
+            <p>Português</p>
+        </button>
+
+        <button (click)="setI(1)">
+            <img src="../../../assets/icons/eua.svg" alt="">
+            <p>Inglês</p>
+        </button>
+
+        <button (click)="setI(2)">
+            <img src="../../../assets/icons/espanha.svg" alt="">
+            <p>Espanhol</p>
+        </button>
+    </nav>
+</main>
